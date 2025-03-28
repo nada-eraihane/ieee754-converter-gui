@@ -1,6 +1,6 @@
-# IEEE 754 Converter GUI 🖩
+# IEEE 754 Converter GUI Calculator 🖩
 
-A Java Swing application that converts between decimal and binary floating-point representations based on the IEEE 754 double-precision format. Built as part of a university Object-Oriented Programming course to demonstrate GUI development, binary logic, and real-time data processing.
+A Java Swing application that converts between decimal and binary floating-point representations based on the IEEE 754 double-precision format. Built as part of a university Object-Oriented Programming coursework project to demonstrate GUI development, binary logic, and real-time data processing.
 
 ---
 
@@ -8,26 +8,20 @@ A Java Swing application that converts between decimal and binary floating-point
 
 - 🔢 Convert decimal floats and integers to 64-bit IEEE 754 binary
 - 💻 Convert IEEE 754 binary strings back to decimal
-- 🧮 Displays the sign bit (positive/negative) of the input
-- 🎛️ Customizable decimal precision
+- ➕ Displays the sign bit (positive/negative) of the input
+- 🎯 Customizable decimal precision
 - ⌨️ Supports both keyboard and on-screen button input
-- ❌ Error messages for invalid entries
-- 📐 Clean, intuitive graphical layout with interactive buttons
+- ❌ Error handling for invalid entries
+- 🎨 Clean and user-friendly GUI
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
 - **Language:** Java
-- **Framework:** Java Swing (AWT)
+- **GUI Framework:** Java Swing (AWT/Swing)
 - **IDE:** Eclipse
-- **Standard Used:** IEEE 754 double-precision floating-point format
-
----
-
-## 📷 GUI Preview
-![image](https://github.com/user-attachments/assets/e303e829-ad9d-4977-b8e0-7dcad2b76f6e)
-
+- **Standard:** IEEE 754 Double-Precision Floating Point
 
 ---
 
@@ -35,45 +29,52 @@ A Java Swing application that converts between decimal and binary floating-point
 
 ```
 ieee754-converter-gui/
-├── src/gui/                   # Java source code
-├── docs/CSOOP_Report.pdf      # Project report
+├── src/
+│   └── gui/
+│       └── GuiOne.java             # Main source file
+├── NMerzoug-Term_3_portfolio-2_CSOOP.pdf  # Final project report
 ├── README.md
-├── .gitignore
-└── ...
+├── LICENSE
 ```
+## 📷 GUI Preview
+
+![image](https://github.com/user-attachments/assets/2a4837ff-525f-407e-b9cb-2a7c1e1cd8f6)
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run the Project
 
-1. Clone the repository:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/nadamerzoug/ieee754-converter-gui.git
+   git clone https://github.com/nada-eraihane/ieee754-converter-gui.git
+   cd ieee754-converter-gui
    ```
 
-2. Open the project in your preferred IDE (e.g., IntelliJ or Eclipse)
+2. Open the project in your Java IDE (e.g. Eclipse or IntelliJ)
 
-3. Navigate to the `Main` class inside `src/gui/` and run the program
+3. Navigate to: `src/gui/GuiOne.java`
+
+4. Run the file — the GUI will launch!
+
+---
+
+## 📄 Project Report
+
+A full explanation of the design, development, testing, and results is available in:
+
+📎 [`NMerzoug-Term_3_portfolio-2_CSOOP.pdf`](./NMerzoug-Term_3_portfolio-2_CSOOP.pdf)
 
 ---
 
 ## 🧪 Testing
 
-Unit testing and system testing were conducted for:
-- Decimal to Binary conversion
-- Binary to Decimal conversion
-- Error handling and GUI interaction
+The application was tested for:
+- Decimal → Binary conversions
+- Binary → Decimal conversions
+- GUI behavior and error handling
+- Manual input via buttons and keyboard
 
-Screenshots and results are available in the attached [report](docs/CSOOP_Report.pdf).
-
----
-
-## 📄 Report
-
-Detailed documentation of design, requirements, implementation and testing is provided in:
-```
-docs/CSOOP_Report.pdf
-```
+Testing scenarios and screenshots are included in the report.
 
 ---
 
@@ -88,3 +89,7 @@ docs/CSOOP_Report.pdf
 ## 👩‍💻 Author
 
 **Nada Eraihane Merzoug**
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
